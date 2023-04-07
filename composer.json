@@ -1,12 +1,16 @@
 {
-    "name": "genealabs/laravel-mixpanel",
-    "description": "MixPanel wrapper for Laravel 5.",
+    "name": "sparrow-living/laravel-mixpanel",
+    "description": "MixPanel wrapper for Laravel. Forked to work on Laravel 10.",
     "license": "MIT",
     "authors": [
         {
             "name": "Mike Bronner",
             "email": "hello@genealabs.com"
-        }
+        },
+	{
+	    "name": "Gavin Servai",
+   	    "email": "gavin@sparrowliving.co"
+	}
     ],
     "autoload": {
         "psr-4": {
@@ -14,26 +18,17 @@
         }
     },
     "require": {
-        "illuminate/auth": "^9.0",
-        "illuminate/config": "^9.0",
-        "illuminate/console": "^9.0",
-        "illuminate/events": "^10.0",
-        "illuminate/http": "^9.0",
-        "illuminate/queue": "^9.0",
-        "illuminate/routing": "^9.0",
-        "illuminate/support": "^9.0",
-        "mixpanel/mixpanel-php": "^2.8",
+        "mixpanel/mixpanel-php": "^2.10.0",
         "sinergi/browser-detector": "^6.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.8",
         "laravel/browser-kit-testing": "^7.0",
-        "laravel/laravel": "^9.0",
-        "laravel/ui": "^3.4",
+        "laravel/laravel": "^10.0",
+        "laravel/ui": "^4.0",
         "php-coveralls/php-coveralls": "^2.4",
         "phpmd/phpmd": "^2.9",
-        "phpunit/phpunit": "^9.5",
-        "sebastian/phpcpd": "^6.0",
+        "phpunit/phpunit": "^10.0",
         "squizlabs/php_codesniffer": "^3.5",
         "symfony/thanks": "^1.2"
     },
